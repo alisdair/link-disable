@@ -1,0 +1,15 @@
+<h2>Demo</h2>
+
+<p>
+  <label>
+    {{input type="checkbox" checked=disableLinks}}
+    Disable links
+  </label>
+</p>
+
+<ul>
+  <li>{{#link-to "whatever" disabled=disableLinks}}link-to whatever (for reference){{/link-to}}</li>
+  <li>{{#link-href "/whatever" disabled=disableLinks}}link-href to "/whatever"{{/link-href}}</li>
+  <li>{{#link-href "https://learn.customer.io/" disabled=disableLinks}}Learn Customer.io{{/link-href}}</li>
+  <li>{{#link-href "https://learn.customer.io/" disabled=disableLinks target="_blank"}}Learn in Popup{{/link-href}}</li>
+</ul>
