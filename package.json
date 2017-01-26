@@ -3,12 +3,12 @@
   "version": "0.0.0",
   "description": "Small description for link-disable goes here",
   "license": "MIT",
-  "author": "",
+  "author": "Alisdair McDiarmid",
   "directories": {
     "doc": "doc",
     "test": "tests"
   },
-  "repository": "",
+  "repository": "git@github.com:alisdair/link-disable",
   "scripts": {
     "build": "ember build",
     "start": "ember server",
