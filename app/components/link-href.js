@@ -12,7 +12,9 @@ let linkHref = Ember.Component.extend({
     }
 
     let target = this.get('target');
-    if (!Ember.isBlank(target)) {
+
+    if (Ember.isPresent(target)) {
+      event.preventDefault();
       window.open(this.get('href'), target);
     }
   }
